@@ -20,3 +20,11 @@ Beam Search (k=5) picks the best translation
 Tokenizer decodes token IDs → Hindi (Devanagari)
             ↓
 Browser displays the Hindi translation
+
+
+Two ways to make it work 
+1. Without any interface , in calab code in each cell directly execute when run and result come in 'hindi translation' of 'english notice statement'
+2. An pyhton flask based interface it develop, where when , firstly we run the command in terminal
+    python app.py
+    then we ctrl + click on http://127.0.0.1:5000
+
